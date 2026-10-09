@@ -1,18 +1,20 @@
 # Alex dev website
 
-A simple static website for **Alex dev** and **mod complex**, ready for GitHub Pages.
+The website for **Alex dev** and **Mod Complex**, a static site hosted on GitHub Pages.
 
-## Before publishing
+Live at https://alexandermarin69.github.io/alexdevlol/
 
-1. In `support.html`, replace `[ADD YOUR SUPPORT EMAIL HERE]` with a real contact address.
-2. In `privacy.html`, replace every bracketed placeholder with accurate information about your game's data practices. Don't publish it as-is.
-3. In `index.html`, update the game description and status as needed.
+## Pages
 
-## Publish on GitHub Pages
+| File | What it is |
+|---|---|
+| `index.html` | Home page: who Alex dev is and what Mod Complex is. |
+| `support.html` | How to get help with Mod Complex. |
+| `privacy.html` | The privacy policy for Mod Complex and this website. |
+| `style.css` | The styles shared by all three pages. |
 
-1. Create a public GitHub repository named `YOUR-GITHUB-USERNAME.github.io`.
-2. Upload `index.html`, `support.html`, `privacy.html`, and `style.css` to the repository root.
-3. In the repository's Settings → Pages, select **Deploy from a branch**, `main`, and `/ (root)`; save.
-4. Your site will appear at `https://YOUR-GITHUB-USERNAME.github.io/` once deployed.
+## Updating the site
 
-You can also use a differently named repository; its Pages URL will generally include the repository name.
+GitHub Pages deploys from the `main` branch, `/ (root)`. Push to `main` and the live site updates within a minute or two.
+
+If the game's data practices change (analytics, online features, accounts and so on), update `privacy.html` and its "Last updated" date to match.
